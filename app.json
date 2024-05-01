@@ -1,0 +1,61 @@
+{
+  "expo": {
+    "name": "Footem",
+    "slug": "Footem",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/android-icon.png",
+    "userInterfaceStyle": "automatic",
+    "notification": {
+      "icon": "./assets/notification-icon.png"
+    },
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#069344"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.footem.androidapp",
+      "googleServicesFile": "./google-services.json",
+      "userInterfaceStyle": "automatic",
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff",
+        "foregroundImage": "./assets/android-icon.png"
+      },
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "autoVerify": true,
+          "data": [
+            {
+              "scheme": "https",
+              "host": "footemxtra.page.link"
+            }
+          ],
+          "category": ["BROWSABLE", "DEFAULT"]
+        }
+      ]
+    },
+    "plugins": [
+      "@react-native-firebase/app",
+      "@react-native-google-signin/google-signin",
+      "expo-localization",
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notification-icon.png",
+          "color": "#ffffff"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "dbd9f451-f667-4d1e-a439-8de851edad7d"
+      }
+    }
+  }
+}

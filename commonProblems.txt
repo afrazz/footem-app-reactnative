@@ -1,0 +1,37 @@
+1 - Check Speed issue
+2 - Fix Common Used Button Issues
+3 -  Create Fetch function to fetch all user followingData in specific screen
+4 - We need redux slice for leagues...
+5 - Implement Screen loading...
+6 - Loading is always showing if we are offline (also no need for loading.. every thing need to work in the background)
+
+////////////////////////////////////////// New Issues ////////////////////////////////////////////////////////////
+1 - Fix the Skip Account login flow
+2 - Follow Api Call needs to call in follow Page => completed
+3 - Fix The Header => completed
+4 - Fix the Button
+5 - Select Country Screen >> No Need for Country Search. Make with League Search
+6 - Implement Fixture Section in League Details Screen
+7 - Implement Fixture in Team Details Screen (Optional => last stage)
+8 - Implement Settings Screen => Completed
+9 - News Share Option
+10 - Setup initial value if User is logged in => In settings >> Language => Completed
+
+
+///////////////////////////////////////// Settings Page ////////////////////////////////////////////////////////////
+1. Language Change option => completed
+2. Following Teams and leagues Selection 
+3. Dark Theme Option
+4. Privacy And Policy
+5. Log out Option => completed
+6. Delete Account Option
+
+
+
+
+Main PROBLEMS
+
+Match details >> multiple goals player issues
+                Elapse Icon is always showing
+                Add Animation for elapse minutes
+                Playing Eleven >> Make player clickable and navigate to player details page even if event is not available

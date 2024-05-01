@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "210258378338",
+    "project_id": "footem-app",
+    "storage_bucket": "footem-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:210258378338:android:6cb39e5e256a9f9bb3db3b",
+        "android_client_info": {
+          "package_name": "com.footem.androidapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "210258378338-h85r48tshkc31if8cvi0182ghrvu01p3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.footem.androidapp",
+            "certificate_hash": "850ab775ac63176ea12c9b0793e89ee971cf6254"
+          }
+        },
+        {
+          "client_id": "210258378338-4vgdnjpg4i9v75fqvq6uvqmvmpjc9hkt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGAEshcMJxK5_ZwbZo7SZ8uXgNpvn6tCA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "210258378338-4vgdnjpg4i9v75fqvq6uvqmvmpjc9hkt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
